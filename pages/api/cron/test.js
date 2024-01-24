@@ -21,6 +21,7 @@ const handler = async (req, res) => {
     return;
   }
 
+  console.log('user created');
   res.send({ message: 'user created' });
 };
 
